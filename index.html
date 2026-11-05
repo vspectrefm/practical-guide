@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brackenmere // Academy Yearbook & Field Guide</title>
+  <meta name="description" content="Brackenmere Academy — practical magic, hostile ecology, student records, and a survival rate best discussed statistically." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@500;600;700;800&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="locked">
+  <div class="paper-grain" aria-hidden="true"></div>
+  <div class="edge-vines left" aria-hidden="true"></div>
+  <div class="edge-vines right" aria-hidden="true"></div>
+
+  <!-- ACCESS GATE: deliberate first interaction so site music can start -->
+  <section id="access-gate" class="access-gate">
+    <div class="gate-card">
+      <div class="gate-crest image-slot crest-slot">
+        <img src="assets/brackenmere-crest.png" alt="Brackenmere Academy crest">
+        <div class="fallback"><span>ART SLOT // ACADEMY CREST</span><small>600 × 600 PNG</small></div>
+      </div>
+      <p class="gate-kicker">BRACKENMERE ACADEMY</p>
+      <h1>Student & Visitor Archive</h1>
+      <p class="gate-copy">
+        Please confirm you understand that entry onto Academy grounds constitutes acceptance of ordinary magical,
+        biological, architectural, and miscellaneous risk.
+      </p>
+      <button id="enter-site" class="enter-button">ENTER THE ARCHIVE</button>
+      <p class="gate-small">By entering, you confirm you have read none of the warnings and will later claim otherwise.</p>
+    </div>
+  </section>
+
+  <div id="site-shell" class="site-shell" aria-hidden="true">
+    <header class="site-header">
+      <div class="school-mark image-slot">
+        <img src="assets/brackenmere-crest.png" alt="Brackenmere Academy crest" />
+        <div class="fallback"><span>CREST</span></div>
+      </div>
+      <div class="brand">
+        <p class="eyebrow">BRACKENMERE ACADEMY // YEARBOOK & FIELD GUIDE</p>
+        <h1>BRACKENMERE</h1>
+        <p class="motto">Learn what it does before touching it.</p>
+      </div>
+      <div class="fatality-board">
+        <span>DAYS SINCE LAST STUDENT FATALITY</span>
+        <strong>6</strong>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="Main sections">
+      <button class="tab active" data-tab="home">WELCOME</button>
+      <button class="tab" data-tab="students">STUDENTS</button>
+      <button class="tab" data-tab="faculty">FACULTY</button>
+      <button class="tab" data-tab="community">LOCAL COMMUNITY</button>
+      <button class="tab" data-tab="academy">ACADEMY</button>
+      <button class="tab" data-tab="fieldguide">FIELD GUIDE</button>
+      <button class="tab" data-tab="memorial">IN MEMORIAM</button>
+    </nav>
+
+    <main>
+      <section id="home" class="panel active">
+        <div class="hero">
+          <div class="hero-copy">
+            <p class="kicker">WELCOME, HUMAN // ORIENTATION MATERIALS ENCLOSED</p>
+            <h2>Magic is real.<br><em>Magic is hungry.</em></h2>
+            <p class="lead">
+              Brackenmere is a respectable academy in a beautiful magical world where survival is considered
+              a teachable skill and most organisms have at least one professionally documented way to kill you.
+            </p>
+            <div class="hero-actions">
+              <button class="primary" data-jump="students">OPEN YEARBOOK</button>
+              <button class="secondary" data-jump="fieldguide">OPEN FIELD GUIDE</button>
+            </div>
+          </div>
+          <div class="hero-art image-slot">
+            <img src="assets/hero-brackenmere.png" alt="Brackenmere Academy and its surrounding magical wilderness" />
+            <div class="fallback"><span>ART SLOT // BRACKENMERE HERO</span><small>1600 × 1000 PNG</small></div>
+          </div>
+        </div>
+
+        <div class="ornament-divider" aria-hidden="true">✦ ❦ ✦</div>
+
+        <div class="home-spread">
+          <article class="yearbook-page">
+            <p class="page-label">ABOUT THE ACADEMY</p>
+            <h3>A perfectly respectable place to learn magic.</h3>
+            <p>
+              Brackenmere accepts unusual students, late bloomers, difficult cases, accidental arrivals,
+              and people whose previous institutions have expressed concerns in writing.
+            </p>
+          </article>
+          <article class="yearbook-page">
+            <p class="page-label">FOR NEW ARRIVALS</p>
+            <h3>Earth instincts are not considered accredited training.</h3>
+            <p>
+              Local beauty is frequently defensive, predatory, poisonous, parasitic, carnivorous,
+              or simply unrelated to human concepts of safety.
+            </p>
+          </article>
+          <article class="yearbook-page">
+            <p class="page-label">ACADEMIC PHILOSOPHY</p>
+            <h3>Understanding is the first survival tool.</h3>
+            <p>
+              Students are expected to study theory, practice under supervision, and learn the crucial difference
+              between “technically possible” and “worth attempting.”
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="students" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">ACADEMY YEARBOOK // CURRENT STUDENTS</p>
+            <h2>Students</h2>
+          </div>
+          <span class="stamp">PLEASE RETURN LIBRARY BOOKS BEFORE DYING</span>
+        </div>
+        <div id="students-grid" class="character-grid yearbook-grid"></div>
+        <div id="students-detail" class="character-detail"><div class="detail-empty">Select a portrait to open their yearbook file.</div></div>
+      </section>
+
+      <section id="faculty" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">ACADEMY DIRECTORY // STAFF & INSTRUCTORS</p>
+            <h2>Faculty</h2>
+          </div>
+          <span class="stamp">QUALIFIED, MOSTLY</span>
+        </div>
+        <div id="faculty-grid" class="character-grid yearbook-grid"></div>
+        <div id="faculty-detail" class="character-detail"><div class="detail-empty">Select a portrait to open their staff file.</div></div>
+      </section>
+
+      <section id="community" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">LOCAL COMMUNITY CONTRIBUTORS // FRIENDS OF THE ACADEMY</p>
+            <h2>Local Community</h2>
+          </div>
+          <span class="stamp">NOT ALL AFFILIATED WITH THE SCHOOL</span>
+        </div>
+        <div id="community-grid" class="character-grid yearbook-grid"></div>
+        <div id="community-detail" class="character-detail"><div class="detail-empty">Select a portrait to open their community file.</div></div>
+      </section>
+
+      <section id="academy" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">CAMPUS ORIENTATION // MAP DATA PARTIAL</p>
+            <h2>The Academy</h2>
+          </div>
+          <span class="stamp warning">BUILDINGS MAY MOVE</span>
+        </div>
+
+        <div class="academy-feature">
+          <div class="academy-art image-slot">
+            <img src="assets/location-brackenmere-academy.png" alt="Brackenmere Academy" />
+            <div class="fallback"><span>ART SLOT // ACADEMY EXTERIOR</span><small>1600 × 1000 PNG</small></div>
+          </div>
+          <div class="academy-copy">
+            <p>
+              The Academy is old, practical, slightly damp, and built in layers by people with differing opinions
+              about architecture and acceptable distances between laboratories.
+            </p>
+            <p>
+              Its towers lean. Its greenhouse migrates seasonally. One staircase is legally classified as an animal.
+              By local standards, the campus is considered well managed.
+            </p>
+            <dl class="facts">
+              <dt>HEADMISTRESS</dt><dd>Hollowmere</dd>
+              <dt>SPECIALTY</dt><dd>Practical magic & survival</dd>
+              <dt>SETTING</dt><dd>Hostile magical ecosystem</dd>
+              <dt>HUMAN STUDENTS</dt><dd>Currently: 1</dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="ornament-divider" aria-hidden="true">❧ ✦ ❧</div>
+
+        <div class="course-grid">
+          <article><h3>Practical Spellcraft</h3><p>How to cast correctly, stop casting quickly, and recognize when a spell has become someone else’s problem.</p></article>
+          <article><h3>Field Survival</h3><p>Plants, terrain, weather, spoor, shelters, and the many legitimate applications of running away.</p></article>
+          <article><h3>Creature Biology</h3><p>What it eats, where it nests, and why Master Thicket insists the screaming is “normal enrichment.”</p></article>
+          <article><h3>Expedition Practice</h3><p>Maps, routes, equipment, rescue procedure, and decision-making while something is chewing the rope.</p></article>
+          <article><h3>Healing</h3><p>Local anatomy, magical trauma, antidotes, emergency stabilization, and one extremely interesting human.</p></article>
+          <article><h3>Things From Elsewhere</h3><p>Portals, unusual arrivals, extradimensional objects, and several regrettably inaccurate chapters about Earth.</p></article>
+        </div>
+      </section>
+
+      <section id="fieldguide" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">ILLUSTRATED FIELD GUIDE // STUDENT EDITION</p>
+            <h2>Local Wildlife</h2>
+          </div>
+          <span class="stamp">THE NAMES ARE DESCRIPTIVE</span>
+        </div>
+        <div id="field-grid" class="field-grid illustrated"></div>
+      </section>
+
+      <section id="memorial" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">ACADEMY ARCHIVE // IN MEMORIAM</p>
+            <h2>Former Students</h2>
+          </div>
+          <span class="stamp warning">REMEMBERED FONDLY / SOMETIMES AS WARNINGS</span>
+        </div>
+        <p class="memorial-intro">
+          Brackenmere maintains records of students lost during study, fieldwork, extracurricular experimentation,
+          and circumstances later described by faculty as “preventable.”
+        </p>
+        <div id="memorial-grid" class="memorial-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>BRACKENMERE ACADEMY // YEARBOOK & FIELD GUIDE</span>
+      <span>IF LOST, REMAIN WHERE YOU ARE UNLESS WHERE YOU ARE HAS TEETH.</span>
+    </footer>
+
+    <audio id="site-music" loop preload="auto">
+      <source src="assets/music/brackenmere-theme.mp3" type="audio/mpeg">
+    </audio>
+    <button id="audio-toggle" class="audio-toggle" type="button">MUSIC // ON</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
