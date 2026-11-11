@@ -26,7 +26,7 @@ body{
     radial-gradient(circle at 90% 10%, rgba(164,97,72,.08), transparent 25%),
     repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 4px),
     #eadfc7;
-  font-family:"Nunito",sans-serif;
+  font-family:"Alegreya Sans",sans-serif;
   overflow-x:hidden;
 }
 body.locked{overflow:hidden}
@@ -78,7 +78,7 @@ body.locked{overflow:hidden}
 
 .gate-crest{width:130px;height:130px;margin:0 auto 18px;border-radius:50%;background:transparent}
 .gate-kicker{margin:0;color:var(--moss);font-size:.75rem;letter-spacing:.14em;font-weight:900}
-.gate-card h1{font:400 clamp(2.8rem,8vw,5rem)/.95 "DM Serif Display",serif;margin:8px 0 18px}
+.gate-card h1{font:400 clamp(2.8rem,8vw,5rem)/.95 "Fraunces",serif;margin:8px 0 18px}
 .gate-copy{max-width:54ch;margin:0 auto;color:var(--ink-soft);line-height:1.7}
 .enter-button{
   margin-top:26px;padding:14px 22px;border:1px solid var(--moss-dark);border-radius:12px;
@@ -86,7 +86,7 @@ body.locked{overflow:hidden}
   box-shadow:0 8px 0 rgba(62,76,56,.14); transition:.18s ease;
 }
 .enter-button:hover{transform:translateY(-2px);box-shadow:0 11px 0 rgba(62,76,56,.14)}
-.gate-small{margin:16px auto 0;max-width:50ch;color:#8a7c69;font: .82rem "Special Elite",serif}
+.gate-small{margin:16px auto 0;max-width:50ch;color:#8a7c69;font: .82rem "IM Fell English",serif}
 
 .site-shell{opacity:0; transform:scale(.992); transition:opacity .7s ease, transform .7s ease}
 .site-shell.visible{opacity:1; transform:none}
@@ -101,12 +101,12 @@ button{font:inherit;color:inherit}
 }
 .school-mark{width:72px;height:72px;border:0;background:transparent}
 .eyebrow,.kicker,.page-label{margin:0;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:900;color:var(--moss)}
-.brand h1{margin:2px 0 0;font:400 clamp(2rem,5vw,3.7rem)/.95 "DM Serif Display",serif;letter-spacing:.02em}
-.motto{margin:4px 0 0;font-family:"Special Elite",serif;color:var(--ink-soft)}
+.brand h1{margin:2px 0 0;font:400 clamp(2rem,5vw,3.7rem)/.95 "Fraunces",serif;letter-spacing:.02em}
+.motto{margin:4px 0 0;font-family:"IM Fell English",serif;color:var(--ink-soft)}
 
 .fatality-board{min-width:185px;padding:10px 14px;text-align:center;border:2px solid var(--red);background:rgba(255,249,233,.76);transform:rotate(1deg);box-shadow:4px 5px 0 rgba(169,77,66,.12)}
 .fatality-board span{display:block;font-size:.58rem;letter-spacing:.1em;font-weight:900;color:var(--red)}
-.fatality-board strong{display:block;margin-top:2px;font:400 2.4rem/1 "DM Serif Display",serif;color:var(--red)}
+.fatality-board strong{display:block;margin-top:2px;font:400 2.4rem/1 "Fraunces",serif;color:var(--red)}
 
 .tabs{
   position:sticky;top:0;z-index:30;width:min(1400px,calc(100% - 70px));margin:12px auto 0;padding:9px;
@@ -124,7 +124,7 @@ main{width:min(1400px,calc(100% - 70px));margin:22px auto 0;padding-bottom:70px;
 
 .hero{min-height:600px;display:grid;grid-template-columns:.95fr 1.05fr;overflow:hidden;border:1px solid var(--line);border-radius:28px;background:rgba(251,244,227,.72);box-shadow:var(--shadow)}
 .hero-copy{padding:clamp(34px,6vw,78px);align-self:center}
-.hero-copy h2,.section-heading h2{font-family:"DM Serif Display",serif;font-weight:400}
+.hero-copy h2,.section-heading h2{font-family:"Fraunces",serif;font-weight:400}
 .hero-copy h2{margin:12px 0 22px;font-size:clamp(3.3rem,7vw,6.6rem);line-height:.88;letter-spacing:-.035em}
 .hero-copy h2 em{color:var(--rust);font-weight:400}
 .lead{max-width:60ch;color:var(--ink-soft);font-size:1.08rem;line-height:1.75}
@@ -139,13 +139,13 @@ main{width:min(1400px,calc(100% - 70px));margin:22px auto 0;padding-bottom:70px;
 .image-slot.missing .fallback{display:grid}
 .hero-art{border-left:1px solid var(--line)}
 
-.ornament-divider{margin:28px 0;text-align:center;color:var(--vine);font:1.6rem "DM Serif Display",serif;letter-spacing:.5em;animation:ornamentFloat 5s ease-in-out infinite}
+.ornament-divider{margin:28px 0;text-align:center;color:var(--vine);font:1.6rem "Fraunces",serif;letter-spacing:.5em;animation:ornamentFloat 5s ease-in-out infinite}
 @keyframes ornamentFloat{50%{transform:translateY(-3px);opacity:.72}}
 
-.home-spread{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.yearbook-page{padding:24px;border:1px solid var(--line);border-radius:16px;background:rgba(251,244,227,.76);box-shadow:0 10px 24px rgba(61,49,34,.07);position:relative}
+.home-spread{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}
+.yearbook-page{padding:14px;border:1px solid var(--line);border-radius:16px;background:rgba(251,244,227,.76);box-shadow:0 10px 24px rgba(61,49,34,.07);position:relative}
 .yearbook-page::after{content:"";position:absolute;right:12px;top:12px;width:34px;height:34px;background:url("assets/small-leaf-ornament.png") center/contain no-repeat;opacity:.28}
-.yearbook-page h3{margin:8px 0;font:400 1.6rem "DM Serif Display",serif}
+.yearbook-page h3{margin:8px 0;font:400 1.6rem "Fraunces",serif}
 .yearbook-page p:last-child{color:var(--ink-soft);line-height:1.65}
 
 .section-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:12px 0 22px}
@@ -153,7 +153,7 @@ main{width:min(1400px,calc(100% - 70px));margin:22px auto 0;padding-bottom:70px;
 .stamp{padding:8px 11px;border:2px solid var(--moss);color:var(--moss-dark);font-size:.7rem;font-weight:900;letter-spacing:.08em;transform:rotate(-1.3deg)}
 .stamp.warning{border-color:var(--red);color:var(--red)}
 
-.character-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:16px}
+.character-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
 .character-card{
   position:relative;aspect-ratio:3/4;border:1px solid var(--line);border-radius:8px;overflow:hidden;padding:10px 10px 54px;
   background:#efe4ca;cursor:pointer;text-align:left;transition:.2s ease;box-shadow:0 9px 19px rgba(61,49,34,.11);
@@ -165,7 +165,7 @@ main{width:min(1400px,calc(100% - 70px));margin:22px auto 0;padding-bottom:70px;
 .card-fallback{position:absolute;inset:0;display:none;place-items:center;text-align:center;background:repeating-linear-gradient(135deg,#ded2b9 0 12px,#e7dcc4 12px 24px);font-weight:900;color:var(--moss-dark)}
 .character-card.missing .card-fallback{display:grid}
 .character-label{position:absolute;left:12px;right:12px;bottom:8px}
-.character-label b{display:block;font:400 1.06rem "DM Serif Display",serif}
+.character-label b{display:block;font:400 1.06rem "Fraunces",serif}
 .character-label span{font-size:.61rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.075em}
 
 .character-detail{margin-top:20px;min-height:390px;overflow:hidden;border:1px solid var(--line);border-radius:20px;background:rgba(251,244,227,.76);box-shadow:var(--shadow)}
@@ -173,7 +173,7 @@ main{width:min(1400px,calc(100% - 70px));margin:22px auto 0;padding-bottom:70px;
 .detail-inner{display:grid;grid-template-columns:minmax(280px,.75fr) 1.25fr}
 .detail-art{min-height:520px;border-right:1px solid var(--line)}
 .detail-content{padding:clamp(24px,4vw,46px)}
-.detail-content h3{margin:4px 0 10px;font:400 clamp(2.2rem,5vw,4rem) "DM Serif Display",serif}
+.detail-content h3{margin:4px 0 10px;font:400 clamp(2.2rem,5vw,4rem) "Fraunces",serif}
 .detail-role{color:var(--moss);font-size:.75rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
 .detail-content p{color:var(--ink-soft);line-height:1.75}
 .detail-meta{margin-top:22px;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
@@ -190,14 +190,14 @@ main{width:min(1400px,calc(100% - 70px));margin:22px auto 0;padding-bottom:70px;
 
 .course-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .course-grid article{padding:22px;border:1px solid var(--line);border-radius:16px;background:rgba(251,244,227,.7)}
-.course-grid h3{margin:0 0 8px;font:400 1.5rem "DM Serif Display",serif}
+.course-grid h3{margin:0 0 8px;font:400 1.5rem "Fraunces",serif}
 .course-grid p{margin:0;color:var(--ink-soft);line-height:1.6}
 
 .field-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .field-card{display:grid;grid-template-columns:minmax(180px,.8fr) 1.2fr;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:rgba(251,244,227,.72);min-height:240px}
 .field-art{min-height:240px;border-right:1px solid var(--line)}
 .field-body{padding:22px}
-.field-body h3{margin:0 0 7px;font:400 1.7rem "DM Serif Display",serif}
+.field-body h3{margin:0 0 7px;font:400 1.7rem "Fraunces",serif}
 .field-body p{margin:0;color:var(--ink-soft);line-height:1.62}
 .risk{display:inline-block;margin-top:14px;padding:4px 7px;border:1px solid var(--rust);color:var(--rust);font-size:.64rem;font-weight:900;letter-spacing:.08em}
 
@@ -205,9 +205,9 @@ main{width:min(1400px,calc(100% - 70px));margin:22px auto 0;padding-bottom:70px;
 .memorial-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
 .memorial-card{padding:12px 12px 18px;border:1px solid rgba(69,57,41,.25);background:#e4d7ba;box-shadow:0 10px 24px rgba(61,49,34,.10);transform:rotate(var(--tilt))}
 .memorial-photo{aspect-ratio:4/3;filter:grayscale(.9) sepia(.22);border:1px solid rgba(69,57,41,.22)}
-.memorial-card h3{margin:14px 0 4px;font:400 1.45rem "DM Serif Display",serif}
+.memorial-card h3{margin:14px 0 4px;font:400 1.45rem "Fraunces",serif}
 .memorial-card p{margin:0;color:var(--ink-soft);line-height:1.55;font-size:.9rem}
-.memorial-tag{display:inline-block;margin-top:12px;color:var(--red);font: .72rem "Special Elite",serif}
+.memorial-tag{display:inline-block;margin-top:12px;color:var(--red);font: .72rem "IM Fell English",serif}
 
 .audio-toggle{
   position:fixed;left:18px;bottom:18px;z-index:7000;padding:9px 12px;border:1px solid var(--moss);
@@ -317,4 +317,212 @@ footer{width:min(1400px,calc(100% - 70px));margin:0 auto 28px;padding-top:18px;d
   font-weight:900;
   letter-spacing:.12em;
   z-index:4;
+}
+
+
+/* Typography refresh — more distinctive Brackenmere identity */
+.brand h1,
+.gate-card h1 {
+  font-family: "Uncial Antiqua", serif;
+  letter-spacing: .015em;
+}
+.hero-copy h2,
+.section-heading h2,
+.detail-content h3 {
+  font-family: "Fraunces", serif;
+  font-variation-settings: "opsz" 90;
+}
+.motto,
+.gate-small,
+.memorial-tag {
+  font-family: "IM Fell English", serif;
+}
+.eyebrow,
+.kicker,
+.page-label,
+.tab,
+.stamp,
+.detail-role,
+.risk {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+/* Reuse the corner-vine asset throughout the site, not only on the access gate */
+.hero,
+.character-detail,
+.academy-feature,
+.yearbook-page,
+.field-card,
+.memorial-card {
+  position: relative;
+}
+.hero::before,
+.character-detail::before,
+.academy-feature::before {
+  content:"";
+  position:absolute;
+  left:8px;
+  top:8px;
+  width:105px;
+  height:105px;
+  background:url("assets/corner-vine.png") center/contain no-repeat;
+  opacity:.20;
+  pointer-events:none;
+  z-index:2;
+}
+.hero::after,
+.character-detail::after,
+.academy-feature::after {
+  content:"";
+  position:absolute;
+  right:8px;
+  bottom:8px;
+  width:105px;
+  height:105px;
+  background:url("assets/corner-vine.png") center/contain no-repeat;
+  transform:rotate(180deg);
+  opacity:.16;
+  pointer-events:none;
+  z-index:2;
+}
+.yearbook-page::before,
+.field-card::before,
+.memorial-card::before {
+  content:"";
+  position:absolute;
+  left:5px;
+  top:5px;
+  width:54px;
+  height:54px;
+  background:url("assets/corner-vine.png") center/contain no-repeat;
+  opacity:.13;
+  pointer-events:none;
+  z-index:2;
+}
+.section-heading {
+  position:relative;
+  padding-right:92px;
+}
+.section-heading::after {
+  content:"";
+  position:absolute;
+  right:0;
+  top:50%;
+  width:78px;
+  height:78px;
+  transform:translateY(-50%) rotate(90deg);
+  background:url("assets/corner-vine.png") center/contain no-repeat;
+  opacity:.22;
+  pointer-events:none;
+}
+
+
+/* =========================================================
+   V6 CHARACTER CARD + BIO NORMALIZATION
+   ========================================================= */
+
+.character-card{
+  aspect-ratio:3/4;
+  padding:10px 10px 76px;
+}
+
+.character-photo{
+  inset:10px 10px 76px;
+}
+
+/* Give every card a true text footer so long subtitles never climb into art. */
+.character-label{
+  left:12px;
+  right:12px;
+  bottom:9px;
+  height:58px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  gap:3px;
+  overflow:hidden;
+}
+
+.character-label b{
+  display:block;
+  font:400 clamp(.9rem,1.1vw,1.06rem) "Fraunces",serif;
+  line-height:1.05;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.character-label span{
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+  overflow:hidden;
+  font-size:.55rem;
+  line-height:1.25;
+  color:var(--ink-soft);
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+
+.detail-content p{
+  max-width:78ch;
+  font-size:1rem;
+  line-height:1.78;
+}
+
+.detail-meta{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+.detail-meta div:last-child:nth-child(odd){
+  grid-column:1/-1;
+}
+
+.detail-meta b{
+  display:block;
+  line-height:1.3;
+}
+
+@media(max-width:760px){
+  .character-card{
+    padding-bottom:70px;
+  }
+
+  .character-photo{
+    bottom:70px;
+  }
+
+  .character-label{
+    height:52px;
+  }
+
+  .character-label span{
+    font-size:.52rem;
+  }
+
+  .detail-meta{
+    grid-template-columns:1fr;
+  }
+
+  .detail-meta div:last-child:nth-child(odd){
+    grid-column:auto;
+  }
+  /* Larger student yearbook portraits */
+  #students-grid.character-grid {
+  grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+  gap: 20px;
+  }
+
+  @media (max-width: 900px) {
+    #students-grid.character-grid {
+    grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 650px) {
+    #students-grid.character-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    }
+  }
 }

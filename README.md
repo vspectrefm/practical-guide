@@ -138,3 +138,28 @@ Three future community-member slots have been added alongside Ash:
 
 You do **not** need to generate these now. If missing, they intentionally render as styled TBD placeholders.
 When a community member is decided, replace the placeholder entry in `script.js` with the real name/details and use the normal art naming convention.
+
+
+## v5 typography + ornament update
+
+### Corner Vine usage
+`assets/corner-vine.png` is now reused across the site rather than only on the entry gate.
+
+It appears on:
+- entry gate parchment
+- hero panel
+- character detail panels
+- academy feature panel
+- yearbook cards
+- field guide cards
+- memorial cards
+- section headings
+
+### Fonts
+The site now loads these from Google Fonts:
+- **Uncial Antiqua** — Brackenmere wordmark / entrance title
+- **Fraunces** — large headings and character names
+- **Alegreya Sans** — body copy, navigation, labels
+- **IM Fell English** — mottoes, marginalia, memorial details
+
+If you later want to self-host fonts instead, replace the Google Fonts `<link>` in `index.html` with local `@font-face` rules in `style.css`.
