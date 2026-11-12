@@ -7,7 +7,7 @@ const groups = {
       trait:"Bog-born",
       pronouns:"she/her",
       mbti:"ISTP",
-      bio:"A dry-humored, highly practical trans girl who has spent enough time around Brackenmere’s wetlands to know that hesitation is sometimes safer than curiosity. Tansy reads weather, mud, spoor, plant behavior, and local hazards almost automatically, and tends to become the player’s first reliable translator for what counts as common sense here. She is difficult to impress, quick to intervene when someone is about to do something lethal, and considerably kinder than her delivery suggests.",
+      bio:"A dry-humored, highly practical girl who has spent enough time around Brackenmere’s wetlands to know that hesitation is sometimes safer than curiosity. Tansy reads weather, mud, spoor, plant behavior, and local hazards almost automatically, and tends to become the player’s first reliable translator for what counts as common sense here. She is difficult to impress, quick to intervene when someone is about to do something lethal, and considerably kinder than her delivery suggests.",
       image:"tansy-wren"
     },
     {
@@ -97,7 +97,7 @@ const groups = {
       trait:"Amphibious",
       pronouns:"he/him",
       mbti:"ISFJ",
-      bio:"Bram is a trans man with delicate, feminine features, an anxious temperament, and survival instincts that are annoyingly correct with remarkable frequency. He carries excessive emergency equipment, notices warning signs other people overlook, and apologizes while explaining exactly how everyone is about to die. His arc is not about becoming fearless; Bram is useful precisely because he is afraid and pays attention anyway. Courage, for him, means moving forward while every instinct is accurately screaming.",
+      bio:"Bram is a man with delicate, feminine features, an anxious temperament, and survival instincts that are annoyingly correct with remarkable frequency. He carries excessive emergency equipment, notices warning signs other people overlook, and apologizes while explaining exactly how everyone is about to die. His arc is not about becoming fearless; Bram is useful precisely because he is afraid and pays attention anyway. Courage, for him, means moving forward while every instinct is accurately screaming.",
       image:"bram-rill"
     },
     {
