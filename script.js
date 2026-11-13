@@ -319,6 +319,16 @@ const groups = {
       mbti:"ENTP",
       bio:"Percival Rook is a flamboyant peacock-man collector whose private menagerie contains rare, dangerous, and academically valuable magical creatures from across the region. He is charming, wealthy, spectacularly vain, and completely convinced that owning exceptional animals makes him exceptional at handling them. It does not. His prestige-driven ‘educational loans’ are responsible for an uncomfortable number of escaped specimens, damaged corridors, emergency notices, and students being temporarily eaten. Thicket respects his collection considerably more than his husbandry.",
       image:"percival-rook"
+    },
+    {
+      name:"Dr. Helena Tress",
+      role:"Community",
+      focus:"Local Physician & Veterinarian",
+      trait:"Reedhornm",
+      pronouns:"She/Her",
+      mbti:"ISFJ",
+      bio:"Helena Tress is a Reedhorn physician and veterinarian whose practice makes surprisingly little distinction between treating people and treating the things that have recently tried to eat them. Warm, observant, and quietly practical, Helena has extensive knowledge of Brackenmere’s unusual biology and a particular interest in the uneasy boundary between medicine, magical ecology, and animal care. She is patient with frightened patients, considerably less patient with preventable injuries, and possesses a dry sense of humor sharpened by years of hearing increasingly implausible explanations for bite wounds. Though polished and composed in public, Helena is fundamentally a field-minded caretaker: curious, compassionate, conservation-conscious, and far more comfortable getting her hands dirty than her elegant appearance initially suggests.",
+      image:"helena-tress"
     }
   ]
 };
