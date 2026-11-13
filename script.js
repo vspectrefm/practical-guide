@@ -324,7 +324,7 @@ const groups = {
       name:"Dr. Helena Tress",
       role:"Community",
       focus:"Local Physician & Veterinarian",
-      trait:"Reedhornm",
+      trait:"Reedhorn",
       pronouns:"She/Her",
       mbti:"ISFJ",
       bio:"Helena Tress is a Reedhorn physician and veterinarian whose practice makes surprisingly little distinction between treating people and treating the things that have recently tried to eat them. Warm, observant, and quietly practical, Helena has extensive knowledge of Brackenmere’s unusual biology and a particular interest in the uneasy boundary between medicine, magical ecology, and animal care. She is patient with frightened patients, considerably less patient with preventable injuries, and possesses a dry sense of humor sharpened by years of hearing increasingly implausible explanations for bite wounds. Though polished and composed in public, Helena is fundamentally a field-minded caretaker: curious, compassionate, conservation-conscious, and far more comfortable getting her hands dirty than her elegant appearance initially suggests.",
